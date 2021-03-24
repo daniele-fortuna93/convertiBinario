@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  height: 100vh;
+  background-color: #ADD8E6;
+  font-family: 'Nerko One', cursive;
+}
+#root{
+  text-align: center;
+}
+h1{
+  font-size: 140px;
+  color: blue;
+  margin-bottom: 30px;
+}
+input{
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  outline: none;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 4px solid blue;
+}
+button{
+  display: block;
+  margin: 25px auto;
+  background-color: #73abfe;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid blue;
+}
+p{
+  display: inline-block;
+  font-size: 35px;
+}
+p span{
+  font-size: 50px;
+  color: #4fc08d;
+}

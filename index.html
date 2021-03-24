@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <!-- Vuejs -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Convertitore binario</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="root">
+        <h1>Converti il numero binario</h1>
+        <input @keyup="soloBinario" type="text" v-model="inputValue" name="" value="" placeholder="Numero da convertire">
+        <button @click="oneZero" type="button" name="button">Converti!</button>
+        <p>il numero binario: <span>{{ inputValue }}</span> <br> equivale a: <span>{{ risultato }}</span></p>
+
+      </div>
+    </div>
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>
