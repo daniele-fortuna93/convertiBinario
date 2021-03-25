@@ -20,8 +20,8 @@ var app = new Vue (
         this.risultato = x;
         return this.risultato;
       },
-      soloBinario: function(evt){
-        var charCode = evt.keyCode;
+      soloBinario: function(e){
+        var charCode = e.which;
         if  ( charCode < 48 || charCode > 49 ){
           this.inputValue = '';
           return alert('Inserisci un carattere vaido!');
